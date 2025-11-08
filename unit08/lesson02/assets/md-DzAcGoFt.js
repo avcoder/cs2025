@@ -1,0 +1,19 @@
+import{_ as r}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-Dy9ce6GE.js";import{b as p,o as k,w as t,g as s,e as h,m as d,ac as i,v as g,x as c,C as a}from"./modules/vue-GlffwYXQ.js";import{I as E}from"./slidev/default-Ca8myQMX.js";import{u as A,f as u}from"./slidev/context-ByHG5Xzt.js";import"./modules/unplugin-icons-B_2w1XOh.js";import"./index-lOsf83h0.js";import"./modules/shiki-DFEgfAY9.js";const b={__name:"slides.md__slidev_4",setup(D){const{$clicksContext:n,$frontmatter:l}=A();return n.setup(),(m,e)=>{const o=r;return k(),p(E,g(c(a(u)(a(l),3))),{default:t(()=>[e[1]||(e[1]=s("h1",null,"Example Folder Structure for Expo Router",-1)),e[2]||(e[2]=s("p",null,"main entry point has to be index.tsx",-1)),h(o,d({},{ranges:[]}),{default:t(()=>e[0]||(e[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-md"},[s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"├── app/                    # All routes go here (like pages/)")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   ├── index.tsx           # Route: "/"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   ├── about.tsx           # Route: "/about"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   ├── settings/           # Nested route group")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   │   ├── index.tsx       # Route: "/settings"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   │   └── profile.tsx     # Route: "/settings/profile"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   ├── (auth)/             # Route group for auth flows (not part of URL)")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   │   ├── login.tsx       # Route: "/login"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'│   │   └── register.tsx    # Route: "/register"')]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   ├── _layout.tsx         # Shared layout for all routes")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"├── components/             # Reusable UI components")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   └── Header.tsx")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"├── constants/              # Constants like colors, layout, sizes")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   └── Colors.ts")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"├── assets/                 # Images, fonts, icons, etc.")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"│   └── images/")])])],-1)])),_:1},16)]),_:1},16)}}};export{b as default};
