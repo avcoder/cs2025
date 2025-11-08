@@ -1,0 +1,14 @@
+import{_ as o}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-BWjhktV3.js";import{b as h,o as u,w as a,g as s,e as p,m as d,ac as e,v as k,x as c,C as n}from"./modules/vue-Dic_Rs6a.js";import{I as f}from"./slidev/default-DbhO1z7S.js";import{u as g,f as m}from"./slidev/context-DYieDcrn.js";import"./modules/unplugin-icons-DPcnArh4.js";import"./index-CSkZBxzi.js";import"./modules/shiki-BH44VRg7.js";const x={__name:"slides.md__slidev_7",setup(E){const{$clicksContext:t,$frontmatter:l}=g();return t.setup(),(A,i)=>{const r=o;return u(),h(f,k(c(n(m)(n(l),6))),{default:a(()=>[i[1]||(i[1]=s("h1",null,"Binary Search Pseudocode using Trees",-1)),p(r,d({},{ranges:[]}),{default:a(()=>i[0]||(i[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-md"},[s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"Function search(value):")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"    Set current = root")]),e(`
+`),s("span",{class:"line"}),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"    While current is not null:")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"        If value is equal to current.value:")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"            Return true (value found)")]),e(`
+`),s("span",{class:"line"}),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"        If value is less than current.value:")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"            Move current to current.left")]),e(`
+`),s("span",{class:"line"}),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"        Else:")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"            Move current to current.right")]),e(`
+`),s("span",{class:"line"}),e(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"    Return false (value not found)")])])],-1)])),_:1},16),i[2]||(i[2]=s("ul",null,[s("li",null,"Instead of doing basic math like dividing array by 2 then rounding in order to get the midpoint, we just follow the pointers which gives us O(log n)"),s("li",null,[e("Tradeoff: "),s("ul",null,[s("li",null,"more space is used"),s("li",null,"What happens if it just happens that the numbers inputted are always put on the right hand side?")])])],-1))]),_:1},16)}}};export{x as default};
